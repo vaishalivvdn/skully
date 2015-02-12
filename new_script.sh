@@ -6,8 +6,8 @@ git clone https://github.com/vaishalivvdn/skully.git
 git commit -am .
 git pull skully master 
 
-git remote add gerrit http://192.168.101.20:8080/
-git clone http://192.168.101.20:8080/
+git remote add gerrit http://192.168.101.20:29418/
+git clone http://192.168.101.20:29418/
 git commit -am .
 git push gerrit master
 
